@@ -1,0 +1,337 @@
+[
+  {
+    "role": "Python Developer",
+    "type": "Technical",
+    "difficulty": "Beginner",
+    "question": "What is a Python list?",
+    "expected_answer": "A list is an ordered, mutable collection in Python that can store multiple items of any data type using square brackets.",
+    "key_concepts": [
+      {
+        "name": "stores multiple items / collection",
+        "synonyms": [
+          "multiple items",
+          "collection",
+          "several values",
+          "multiple values",
+          "elements",
+          "data structure",
+          "holds items",
+          "store items"
+        ]
+      },
+      {
+        "name": "mutable / can be changed",
+        "synonyms": [
+          "mutable",
+          "can be changed",
+          "contents can be changed",
+          "can modify",
+          "modifiable",
+          "changeable",
+          "alter contents",
+          "can change"
+        ],
+        "negations": [
+          "cannot be changed",
+          "immutable",
+          "cant be changed",
+          "can't be changed",
+          "cannot change",
+          "cant change",
+          "not changeable",
+          "fixed size"
+        ]
+      },
+      {
+        "name": "ordered / indexed",
+        "synonyms": [
+          "ordered",
+          "sequence",
+          "index",
+          "indexed",
+          "positions",
+          "insertion order"
+        ]
+      },
+      {
+        "name": "syntax / square brackets",
+        "synonyms": [
+          "square bracket",
+          "brackets",
+          "[]",
+          "square brackets"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Python Developer",
+    "type": "Technical",
+    "difficulty": "Beginner",
+    "question": "What is a list comprehension in Python? Provide a simple example.",
+    "expected_answer": "A list comprehension is a concise and readable way to create lists in Python using a single line of code with a for-loop inside square brackets. Example: [x*2 for x in range(5)].",
+    "key_concepts": [
+      {
+        "name": "concise list creation",
+        "synonyms": [
+          "concise",
+          "shorter syntax",
+          "compact",
+          "single line",
+          "one line",
+          "create list",
+          "generate list",
+          "easy way to build"
+        ]
+      },
+      {
+        "name": "loop / iteration syntax",
+        "synonyms": [
+          "for loop",
+          "loop",
+          "iterate",
+          "iteration",
+          "brackets",
+          "square brackets",
+          "for in"
+        ]
+      },
+      {
+        "name": "example structure",
+        "synonyms": [
+          "range",
+          "example",
+          "expression",
+          "x for x",
+          "[x",
+          "in range"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Python Developer",
+    "type": "Technical",
+    "difficulty": "Intermediate",
+    "question": "Explain the difference between @staticmethod and @classmethod in Python.",
+    "expected_answer": "@classmethod receives the class itself as its first argument (cls) and can modify class state. @staticmethod does not receive an implicit first argument (neither self nor cls) and behaves like an ordinary function attached to the class namespace.",
+    "key_concepts": [
+      {
+        "name": "classmethod receives class / cls",
+        "synonyms": [
+          "cls",
+          "class as first argument",
+          "takes cls",
+          "receives class",
+          "class parameter",
+          "class reference"
+        ]
+      },
+      {
+        "name": "staticmethod has no self or cls",
+        "synonyms": [
+          "no self",
+          "no cls",
+          "no first argument",
+          "neither self nor cls",
+          "regular function",
+          "independent",
+          "utility method"
+        ]
+      },
+      {
+        "name": "class state or factory use",
+        "synonyms": [
+          "class state",
+          "factory",
+          "class level",
+          "class variable",
+          "namespace"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Data Analyst",
+    "type": "Technical",
+    "difficulty": "Beginner",
+    "question": "What is the difference between a Series and a DataFrame in pandas?",
+    "expected_answer": "A Series is a one-dimensional labeled array representing a single column. A DataFrame is a two-dimensional tabular data structure with labeled rows and columns like a table.",
+    "key_concepts": [
+      {
+        "name": "Series is 1-dimensional / single column",
+        "synonyms": [
+          "1d",
+          "one dimensional",
+          "1-dimensional",
+          "single column",
+          "one column",
+          "single dimension"
+        ]
+      },
+      {
+        "name": "DataFrame is 2-dimensional / table",
+        "synonyms": [
+          "2d",
+          "two dimensional",
+          "2-dimensional",
+          "table",
+          "tabular",
+          "rows and columns",
+          "spreadsheet",
+          "multiple columns"
+        ]
+      },
+      {
+        "name": "labeled indices / headers",
+        "synonyms": [
+          "index",
+          "labeled",
+          "labels",
+          "column names",
+          "indices",
+          "axis"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Data Analyst",
+    "type": "Technical",
+    "difficulty": "Intermediate",
+    "question": "How do you detect and handle missing values in a dataset?",
+    "expected_answer": "Missing values are detected using isnull() or isna(). They can be handled either by dropping rows/columns (dropna()) or by imputing them with mean, median, mode, or predictive values (fillna()).",
+    "key_concepts": [
+      {
+        "name": "detecting nulls",
+        "synonyms": [
+          "isnull",
+          "isna",
+          "null",
+          "detect",
+          "check nan",
+          "find missing",
+          "identify null"
+        ]
+      },
+      {
+        "name": "dropping missing data",
+        "synonyms": [
+          "dropna",
+          "drop",
+          "remove rows",
+          "remove missing",
+          "delete rows",
+          "drop records"
+        ]
+      },
+      {
+        "name": "imputing / filling missing values",
+        "synonyms": [
+          "impute",
+          "imputation",
+          "fillna",
+          "mean",
+          "median",
+          "mode",
+          "fill missing",
+          "replace missing"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "AI/ML Engineer",
+    "type": "Technical",
+    "difficulty": "Beginner",
+    "question": "What is overfitting in machine learning and how can you prevent it?",
+    "expected_answer": "Overfitting happens when a model learns the training data and noise too well, performing great on training data but poorly on unseen test data. It is prevented using cross-validation, regularization (L1/L2), dropout, more training data, or simpler models.",
+    "key_concepts": [
+      {
+        "name": "poor performance on unseen / test data",
+        "synonyms": [
+          "unseen data",
+          "test data",
+          "generalize",
+          "high variance",
+          "fits noise",
+          "memorizes data",
+          "fails on test"
+        ]
+      },
+      {
+        "name": "regularization techniques",
+        "synonyms": [
+          "regularization",
+          "l1",
+          "l2",
+          "ridge",
+          "lasso",
+          "penalty",
+          "dropout"
+        ]
+      },
+      {
+        "name": "validation and data approaches",
+        "synonyms": [
+          "cross validation",
+          "more data",
+          "early stopping",
+          "simpler model",
+          "pruning",
+          "data augmentation"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Python Developer",
+    "type": "HR",
+    "difficulty": "Beginner",
+    "question": "Tell me about a challenging programming bug you encountered and how you solved it.",
+    "expected_answer": "A strong answer describes a specific bug scenario, the debugging process (using logs, print statements, or debuggers), identifying the root cause, and the resolution or lessons learned.",
+    "key_concepts": [
+      {
+        "name": "problem context / scenario",
+        "synonyms": [
+          "problem",
+          "bug",
+          "error",
+          "issue",
+          "crash",
+          "failure",
+          "broken",
+          "exception"
+        ]
+      },
+      {
+        "name": "investigation and debugging method",
+        "synonyms": [
+          "debug",
+          "debugger",
+          "logs",
+          "log",
+          "breakpoint",
+          "isolated",
+          "tested",
+          "investigated",
+          "stack trace",
+          "analyzed"
+        ]
+      },
+      {
+        "name": "resolution and lessons learned",
+        "synonyms": [
+          "fixed",
+          "solved",
+          "solution",
+          "resolved",
+          "learned",
+          "prevented",
+          "unit test",
+          "outcome"
+        ]
+      }
+    ]
+  }
+]
